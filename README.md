@@ -1,4 +1,4 @@
-# Escáner de puertos en red local
+# SCANMENOW - Escáner de puertos en red local
 
 Nmap Network Scanner
 Este es un programa simple que utiliza la biblioteca nmap para escanear la red local y buscar hosts activos. El usuario puede seleccionar un host específico para escanear y especificar un rango de puertos a escanear. El resultado del escaneo se guarda en un archivo de registro y se muestra en la consola.
@@ -9,7 +9,7 @@ Utiliza [Nmap](https://nmap.org/) para escanear los hosts de la red y mostrar lo
 
 1. Clona el repositorio.
 
-git clone https://github.com/Ubyquit/scanmenow.git
+`git clone https://github.com/Ubyquit/scanmenow.git`
 
 2. Requerimientos
 
@@ -23,12 +23,12 @@ git clone https://github.com/Ubyquit/scanmenow.git
 3. Instala las dependencias.
 
 
-pip install -r requirements.txt
+`pip install -r requirements.txt`
 
 
 4. Ejecuta el script.
 
-python scanmenow.py
+`python3 scanmenow.py`
 
 El programa escaneará la red local y mostrará una lista de hosts activos. Luego, pedirá al usuario que ingrese el número del host que desea escanear y el rango de puertos a escanear. El resultado del escaneo se mostrará en la consola y se registrará en un archivo de registro llamado `script.log`.
 
