@@ -9,7 +9,6 @@ import os
 # Limpiar la consola
 os.system('cls' if os.name == 'nt' else 'clear')
 
-
 banner = '''
  .d8888b.   .d8888b.        d8888 888b    888 888b     d888 8888888888                                 
 d88P  Y88b d88P  Y88b      d88888 8888b   888 8888b   d8888 888                                        
