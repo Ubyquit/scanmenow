@@ -9,7 +9,7 @@ Utiliza [Nmap](https://nmap.org/) para escanear los hosts de la red y mostrar lo
 
 1. Clona el repositorio.
 
-git clone https://github.com/TU_USUARIO/AQUI_EL_NOMBRE_DEL_REPOSITORIO.git
+git clone https://github.com/Ubyquit/scanmenow.git
 
 2. Requerimientos
 
