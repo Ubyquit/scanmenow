@@ -1,45 +1,53 @@
-# SCANMENOW - Escáner de puertos en red local
+Tabla de contenidos
+-   [Descripción y contexto](#descripción_y_contexto)
+-   [Guía de usuario](#guía_de_usuario)
+-   [Guía de instalación](#guía_de_instalación)
+-   [Cómo contribuir](#cómo-contribuir)
+-   [Código de conducta](#código_de_conducta)
+-   [Autor](#autor)
+-   [Licencia](#licencia)
+-   [Limitación de responsabilidades](#limitación_de_responsabilidades)
 
-Nmap Network Scanner
-Este es un programa simple que utiliza la biblioteca nmap para escanear la red local y buscar hosts activos. El usuario puede seleccionar un host específico para escanear y especificar un rango de puertos a escanear. El resultado del escaneo se guarda en un archivo de registro y se muestra en la consola.
+## Descripción y contexto
+<p align="justify">SCANMENOW es una herramienta de escaneo de red desarrollada con Python. Utiliza las librerías nmap, socket, os, tqdm y termcolor para escanear una red local y encontrar los hosts disponibles, escanear los puertos abiertos de un host en particular y buscar vulnerabilidades en esos puertos.</p>
+## Guía de usuario
 
-Utiliza [Nmap](https://nmap.org/) para escanear los hosts de la red y mostrar los puertos abiertos en el host seleccionado por el usuario.
+<p align="justify">Para utilizar SCANMENOW, simplemente ejecute el archivo scanmenow.py y siga las instrucciones en pantalla. La herramienta escaneará la red local y mostrará una lista de hosts disponibles. Luego, pedirá al usuario que seleccione un host y que introduzca un rango de puertos para escanear. SCANMENOW escaneará los puertos seleccionados y mostrará una lista de los puertos abiertos. Finalmente, se ofrecerá al usuario la opción de buscar vulnerabilidades en los puertos abiertos utilizando la herramienta nmap.</p>
 
-## Uso
+## Guía de instalación
 
-1. Clona el repositorio.
+<p align="justify">Para utilizar SCANMENOW, asegúrese de tener instaladas las librerías nmap, socket, os, tqdm y termcolor. Puede instalar estas librerías utilizando el gestor de paquetes de Python pip. A continuación se muestra un ejemplo de cómo instalar estas librerías en una distribución de Linux basada en Debian:</p>
 
-`git clone https://github.com/Ubyquit/scanmenow.git`
-
-2. Requerimientos
-
-
-- Python 3.x
-- Nmap
-- TQDM
-- termcolor
+```
+$ sudo apt-get update
+$ sudo apt-get install python3-pip
+$ pip3 install python-nmap tqdm termcolor
+```
 
 
-3. Instala las dependencias.
+## Cómo contribuir
 
+Si desea contribuir a SCANMENOW, por favor, siga los siguientes pasos:
 
-`pip install -r requirements.txt`
+### Forkee este repositorio.
 
+- Cree su propia rama (`git checkout -b feature/AmazingFeature`).
+- Haga sus cambios y realice un commit (`git commit -m 'Añadiendo un feature increíble'`).
+- Haga un push a la rama (`git push origin feature/AmazingFeature`).
+- Abra una solicitud de pull.
 
-4. Ejecuta el script.
+## Código de conducta
 
-`python3 scanmenow.py`
-
-El programa escaneará la red local y mostrará una lista de hosts activos. Luego, pedirá al usuario que ingrese el número del host que desea escanear y el rango de puertos a escanear. El resultado del escaneo se mostrará en la consola y se registrará en un archivo de registro llamado `script.log`.
-
-Sigue las instrucciones en pantalla para seleccionar el host que deseas escanear y el rango de puertos a escanear.
-
-5. Contribuciones
-Las contribuciones son bienvenidas. Siéntete libre de enviar un pull request o abrir un issue si encuentras algún error o quieres sugerir alguna mejora.
-
-6. Licencia
-Este proyecto está bajo la licencia MIT. Consulte el archivo LICENSE para obtener más detalles.
+Todos los colaboradores de SCANMENOW deben adherirse al código de conducta de la comunidad.
 
 ## Autor
 
-Este proyecto fue creado por **Ubyquit**.
+SCANMENOW fue creado por Ubyquit.
+
+## Licencia
+
+<p align="justify">SCANMENOW se distribuye bajo la licencia MIT. Consulte el archivo LICENSE para obtener más detalles.</p>
+
+## Limitación de responsabilidades
+
+<p align="justify">Esta herramienta se proporciona con fines educativos. El uso inadecuado de esta herramienta será responsabilidad exclusiva de la persona que la use. Los autores de SCANMENOW no se hacen responsables de ningún daño causado por el uso de esta herramienta.</p>
