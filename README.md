@@ -66,7 +66,11 @@ Instalación y descarga:
 git clone https://github.com/Ubyquit/scanmenow.git
 cd scanmenow
 chmod -X scanmenow.py
-python3 scanmenow.py
+```
+Importante ejecutar con privilegios de administrador:
+
+```shell
+sudo python3 scanmenow.py
 ```
 
 ## Cómo contribuir
