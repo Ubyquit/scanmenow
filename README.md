@@ -1,3 +1,6 @@
+![Logo de Hacking Online](https://academiahacking.online/wp-content/uploads/2023/02/LOGO-HACKING-ONLINE-BLANCO-min.png)
+
+
 Tabla de contenidos
 -   [Descripción y contexto](#descripción-y-contexto)
 -   [Guía de usuario](#guía-de-usuario)
