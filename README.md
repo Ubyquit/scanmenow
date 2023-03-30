@@ -73,6 +73,24 @@ Importante ejecutar con privilegios de administrador:
 sudo python3 scanmenow.py
 ```
 
+#### Recuerda que dependiendo del puerto y el número de puertos escaneados es el tiempo de espera, preparate un cafe y enciende tu TV.
+
+Prueba:
+
+<img width="710" alt="Captura de pantalla 2023-03-30 a la(s) 5 37 39 p m" src="https://user-images.githubusercontent.com/22873230/228978883-b42b7859-6cc3-4618-9031-e6e7240620ce.png">
+
+Puertos encontrados:
+
+<img width="710" alt="Captura de pantalla 2023-03-30 a la(s) 5 39 57 p m" src="https://user-images.githubusercontent.com/22873230/228979249-800ee78e-3a05-4849-b61c-715ed55b6af1.png">
+
+Escaneo de vulnerabilidades:
+
+<img width="1390" alt="Captura de pantalla 2023-03-30 a la(s) 5 43 01 p m" src="https://user-images.githubusercontent.com/22873230/228980638-017313dc-fe21-41cc-b20b-2f4628f92c1f.png">
+
+Vulnerabilidad encontrada:
+
+<img width="716" alt="Captura de pantalla 2023-03-30 a la(s) 6 02 05 p m" src="https://user-images.githubusercontent.com/22873230/228983390-738ab76d-cb31-4c9d-b94e-7a558f28e59b.png">
+
 ## Cómo contribuir
 
 Si desea contribuir a SCANMENOW, por favor, siga los siguientes pasos:
@@ -91,7 +109,6 @@ Todos los colaboradores de SCANMENOW deben adherirse al código de conducta de l
 ## Autores
 
 <img src="https://scontent.fcjs3-2.fna.fbcdn.net/v/t39.30808-6/297334960_10226115189318803_3515507641582716610_n.jpg?_nc_cat=111&ccb=1-7&_nc_sid=174925&_nc_eui2=AeFsmOOwNjwqvA8Ff-CmN6YIcsff39AepwByx9_f0B6nADoiY11wIZw4d3l_suHGeVQ&_nc_ohc=eirIIEFi8BwAX-TiA_O&_nc_ht=scontent.fcjs3-2.fna&oh=00_AfA32kMgNMcpq0so9TnL1zwkZCIE3o3fBOTFf2hJ-nMl9g&oe=642AADAA" width="100">
-
 
 
 ## Licencia
