@@ -1,4 +1,4 @@
-![Logo de Hacking Online](https://academiahacking.online/wp-content/uploads/2023/02/LOGO-HACKING-ONLINE-BLANCO-min.png)
+![Logo de Hacking Online](https://academiahacking.online/cursos/pluginfile.php/1/theme_moove/logo/1679680585/logo%20completo.png)
 
 
 Tabla de contenidos
