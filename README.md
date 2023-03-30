@@ -4,13 +4,16 @@
 Tabla de contenidos
 - [Descripción y contexto](#descripción-y-contexto)
 - [Guía de usuario](#guía-de-usuario)
+	- [Estructura del proyecto](#estructura-del-proyecto)
 - [Guía de instalación](#guía-de-instalación)
 - [Instalación](#instalación)
 - [Cómo contribuir](#cómo-contribuir)
+	- [Forkee este repositorio.](#forkee-este-repositorio)
 - [Código de conducta](#código-de-conducta)
 - [Autores](#autores)
 - [Licencia](#licencia)
 - [Limitación de responsabilidades](#limitación-de-responsabilidades)
+- [Gratitud 🎁](#gratitud-)
 
 
 ## Descripción y contexto
@@ -30,7 +33,6 @@ Tabla de contenidos
 	├── scanmenow.py
 	├── LICENSE.md
 ```
-
 
 
 ## Guía de instalación
