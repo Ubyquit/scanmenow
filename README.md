@@ -24,11 +24,11 @@ Plataforma
 
 Las librerías utilizadas son:
 
--   Nmap ![Nmap version](https://img.shields.io/badge/nmap-7.91-green.svg)
--   socket ![Socket version](https://img.shields.io/badge/socket-0.1.1-blue.svg)
--   os ![Os version](https://img.shields.io/badge/os-0.1.0-red.svg)
--   tqdm ![Tqdm version](https://img.shields.io/badge/tqdm-4.62.2-orange.svg)
--   termcolor ![Termcolor version](https://img.shields.io/badge/termcolor-1.1.0-pink.svg)
+-   [Nmap]([https://pypi.org/project/python-nmap/](https://pypi.org/project/python-nmap/)) ![Nmap version](https://img.shields.io/badge/nmap-7.91-green.svg)
+-   [socket]([https://docs.python.org/3/library/socket.html](https://docs.python.org/3/library/socket.html)) ![Socket version](https://img.shields.io/badge/socket-0.1.1-blue.svg)
+-   [os]([https://docs.python.org/3/library/os.html](https://docs.python.org/3/library/os.html)) ![Os version](https://img.shields.io/badge/os-0.1.0-red.svg)
+-   [tqdm]([https://pypi.org/project/tqdm/](https://pypi.org/project/tqdm/)) ![Tqdm version](https://img.shields.io/badge/tqdm-4.62.2-orange.svg)
+-   [termcolor](termcolor) ![Termcolor version](https://img.shields.io/badge/termcolor-1.1.0-pink.svg)
 
 Estas librerías se utilizan en el proyecto para escanear una red local y encontrar hosts disponibles, escanear puertos abiertos en un host en particular y buscar vulnerabilidades en esos puertos. También se utilizan para la gestión de paquetes y la presentación de información en pantalla.
 
